@@ -67,6 +67,7 @@ const ControlPresupuesto = ({ presupuesto, setPresupuesto, gastos, setGastos, se
                 </p>
                 <p>
                     <span>Gastado</span> {formatearCantidad(gastado)}
+                    {console.log('test')}
                 </p>
             </div>
 
